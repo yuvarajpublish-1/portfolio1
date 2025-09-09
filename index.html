@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>P.YUVARAJ Portfolio</title>
+  <style>
+    body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #0b0b0c;
+  color: #eee;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  position: sticky;
+  top: 0;
+  padding: 10px 20px;
+}
+
+header h1 { color: #ff4500; }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(180deg, #1a1a1d, #0b0b0c);
+  position: relative;
+}
+
+.hero .profile {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #ff4500;
+  box-shadow: 0 0 15px #ff4500;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #ff4500;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff6347;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.skill {
+  background: rgba(255, 69, 0, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ff4500;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>🌋 P.YUVARAJ</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#sports">Sports</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <img src="profile.jpg" alt="Profile of P.YUVARAJ" class="profile">
+    <h2>BCA Student | Web Developer | Basketball Player</h2>
+    <p>Building on the court, coding on the web, and leveling up through e-sports.</p>
+    <a href="#contact" class="btn">Contact Me</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a BCA student at Agurchand Manmull Jain College (Class of 2027). I compete in state-level basketball and enjoy e-sports gaming as a mindful way to relax. My focus is on web development using Python, HTML, CSS, and JavaScript.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">Python</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>🚧 Projects coming soon...</p>
+  </section>
+
+  <section id="sports">
+    <h2>Sports & E-sports</h2>
+    <p><strong>Basketball:</strong> State-level player</p>
+    <p><strong>E-sports:</strong> Gaming as a way to reduce anxiety</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:yuvapadmanabhan123@gmail.com">yuvapadmanabhan123@gmail.com</a></p>
+    <p>Phone: <a href="tel:+918825720036">+91 88257 20036</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 P.YUVARAJ</p>
+  </footer>
+  <script>
+    // Simple smoke effect animation placeholder
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Portfolio loaded - lava & smoke effects can go here!");
+});
+  </script>
+</body>
+</html>
